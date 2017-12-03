@@ -15,6 +15,12 @@ span {
   padding-left: 25px;
   text-decoration: underline;
 }
+h2 {
+  margin: 10px 0;
+}
+h4 {
+  margin: 10px 0;
+}
 #logo {
   margin-left: 10px;
 }
@@ -24,8 +30,28 @@ span {
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  margin-top: 0;
+  top: 0;
   background-color: black;
   height: 69px;
   border-bottom: 1px solid seashell;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mission {
+  background-image: url('../images/img-mission-background.jpg');
+  display: flex;
+  align-items: center;
+  margin-top: 62px;
+  height: 700px;
+  width: 1200px
+}
+.text-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
 }
