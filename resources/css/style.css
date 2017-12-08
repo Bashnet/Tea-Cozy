@@ -1,28 +1,15 @@
+/* Main body styles */
 body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  text-align: center; /**/
+  text-align: center;
 }
-img {
-  height: 50px;
-}
-nav {
-  margin-right: 12px;
-}
-h2 {
-  margin: 10px 0;
-  width: 100% /**/
-}
-h4 {
-  margin: 10px 0;
-  width: 100% /**/
-}
-#logo {
-  margin-left: 10px;
-}
+/************************/
+
+/* Header Section */
 header {
   display: flex;
   align-items: center;
@@ -42,11 +29,30 @@ header span {
 header h2, .address h2 {
   margin-bottom: 15px;
 }
-article {
+#logo {
+  margin-left: 10px;
+}
+img {
+  height: 50px;
+}
+nav {
+  margin-right: 12px;
+}
+/*********************/
+
+/* applies to all h2 and h4 */
+h2, h4 {
+  margin: 10px 0;
+}
+/***************************/
+
+/* Main Section */
+Main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+/*Our Mission */
 .mission {
   background-image: url('../images/img-mission-background.jpg');
   display: flex;
@@ -57,12 +63,10 @@ article {
   padding-top: 70px;
 }
 .text-content {
-  display: flex;
   width: 100%;
-  flex-direction: column;
-  align-items: center;
   background-color: black;
 }
+/* Tea of the Month */
 .month-tea {
   display: flex;
   flex-direction: column;
@@ -84,6 +88,7 @@ article {
 .tea img {
   height: 200px;
 }
+/* Locations */
 .address {
   background-image: url('../images/img-locations-background.jpg');
   display: flex;
@@ -108,10 +113,12 @@ article {
   width: 300px;
   opacity: 1;
 }
+/* Contact Section */
 .contact {
   height: 200px;
   align-items: center;
 }
+/* Footer Section */
 footer h5 {
   text-align: left;
   margin-left: 20px;
